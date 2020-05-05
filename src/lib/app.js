@@ -1,4 +1,5 @@
 import './components/ProfileSwitcherContainer';
+import './components/Feedback';
 import './components/Header';
 import './components/SideNav';
 import './components/SnackbarContainer';
