@@ -11,6 +11,9 @@ import * as router from './utils/router';
 import {store} from './store';
 import removeServiceWorkers from './utils/sw-remove';
 
+// TODO TODO TODO just an experiment for Percy
+delete Document.prototype.adoptedStyleSheets;
+
 function initialize() {
   // TODO(samthor): This isn't quite the right class name because not all Web Components are ready
   // at this point due to code-splitting.
